@@ -3,9 +3,9 @@
 Aplikasi ini merupakan program sederhana berbasis Java Swing yang memungkinkan pengguna untuk menjumlahkan dua angka. Aplikasi memiliki antarmuka grafis yang mudah digunakan, dengan tiga input utama: Angka Pertama, Angka Kedua, dan Hasil. Pengguna dapat menambah dua angka, menghapus input, atau keluar dari aplikasi.
 
 ## Identitas
-Nama  : Muhammad Raihan
-NPM   : 2210010364
-Kelas : 5B NonReg Banjarmasin
+- Nama  : Muhammad Raihan
+- NPM   : 2210010364
+- Kelas : 5B NonReg Banjarmasin
 
 ## Fitur
 - **Input Angka**: Pengguna dapat memasukkan dua angka untuk dijumlahkan.
