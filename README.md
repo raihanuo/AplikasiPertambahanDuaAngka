@@ -35,7 +35,6 @@ Aplikasi ini merupakan program sederhana berbasis Java Swing yang memungkinkan p
 ![1](https://github.com/user-attachments/assets/90e46e66-0bbd-4eb1-9ed6-f5bee86939e0)
 ![1_](https://github.com/user-attachments/assets/cf550a04-d678-4047-9f90-d31b8803b9d5)
 
-
 ## Cara Menjalankan Program
 1. Pastikan Anda memiliki **Java Development Kit (JDK)** terinstal di sistem Anda.
 2. Clone repositori ini ke mesin lokal Anda.
