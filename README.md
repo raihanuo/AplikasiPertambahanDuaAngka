@@ -1,5 +1,6 @@
 # Aplikasi Pertambahan Dua Angka
 
+## Deskripsi
 Aplikasi ini merupakan program sederhana berbasis Java Swing yang memungkinkan pengguna untuk menjumlahkan dua angka. Aplikasi memiliki antarmuka grafis yang mudah digunakan, dengan tiga input utama: Angka Pertama, Angka Kedua, dan Hasil. Pengguna dapat menambah dua angka, menghapus input, atau keluar dari aplikasi.
 
 ## Identitas
