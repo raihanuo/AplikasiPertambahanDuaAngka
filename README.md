@@ -1,6 +1,5 @@
 # Aplikasi Pertambahan Dua Angka
 
-## Deskripsi
 Aplikasi ini merupakan program sederhana berbasis Java Swing yang memungkinkan pengguna untuk menjumlahkan dua angka. Aplikasi memiliki antarmuka grafis yang mudah digunakan, dengan tiga input utama: Angka Pertama, Angka Kedua, dan Hasil. Pengguna dapat menambah dua angka, menghapus input, atau keluar dari aplikasi.
 
 ## Identitas
@@ -35,6 +34,9 @@ Aplikasi ini merupakan program sederhana berbasis Java Swing yang memungkinkan p
 ## Screenshot
 _Akan ditambahkan nanti_
 
-## Cara Menjalankan
-1. Pastikan Java sudah terinstal pada komputer Anda.
-2. Jalankan aplikasi dengan meng-compile dan mengeksekusi file `NewJFrame.java`.
+## Cara Menjalankan Program
+1. Pastikan Anda memiliki **Java Development Kit (JDK)** terinstal di sistem Anda.
+2. Clone repositori ini ke mesin lokal Anda.
+   ```bash
+   git clone https://github.com/username/repo-name.git
+3. Jalankan aplikasi dengan mengkompilasi dan mengeksekusi file `NewJFrame.java`.
