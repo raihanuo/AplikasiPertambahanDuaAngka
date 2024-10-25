@@ -32,7 +32,8 @@ Aplikasi ini merupakan program sederhana berbasis Java Swing yang memungkinkan p
 - **Multiplatform**: Program ini dapat dijalankan pada berbagai sistem operasi yang mendukung Java.
 
 ## Screenshot
-_Akan ditambahkan nanti_
+![1_](https://github.com/user-attachments/assets/0ebe64cc-3c97-42c5-b90a-3d7b8fbfedfb)
+![1](https://github.com/user-attachments/assets/1183a83b-317c-47c1-b3a1-cebbf95556da)
 
 ## Cara Menjalankan Program
 1. Pastikan Anda memiliki **Java Development Kit (JDK)** terinstal di sistem Anda.
