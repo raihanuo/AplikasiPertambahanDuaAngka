@@ -1,6 +1,6 @@
 # Aplikasi Pertambahan Dua Angka
 
-Aplikasi ini merupakan program sederhana berbasis Java Swing yang memungkinkan pengguna untuk menjumlahkan dua angka. Aplikasi memiliki antarmuka grafis yang mudah digunakan, dengan tiga input utama: Angka Pertama, Angka Kedua, dan Hasil. Pengguna dapat menambah dua angka, menghapus input, atau keluar dari aplikasi.
+Aplikasi ini adalah program Java berbasis GUI yang memungkinkan pengguna untuk menjumlahkan dua angka. Aplikasi memiliki antarmuka grafis yang mudah digunakan, dengan dua input utama: Angka Pertama dan Angka Kedua. Pengguna dapat menambah dua angka, menghapus input, atau keluar dari aplikasi.
 
 ## Identitas
 - Nama  : Muhammad Raihan
@@ -22,8 +22,8 @@ Aplikasi ini merupakan program sederhana berbasis Java Swing yang memungkinkan p
 5. Untuk keluar dari aplikasi, tekan tombol **Keluar**.
 
 ## Teknologi yang Digunakan
-- **Java**: Program ini ditulis menggunakan Java dengan antarmuka grafis berbasis Swing.
-- **Swing Framework**: Digunakan untuk membangun antarmuka pengguna yang interaktif.
+- **Java**: Bahasa pemrograman untuk mengembangkan aplikasi.
+- **Swing**: Framework GUI untuk membangun antarmuka pengguna.
 
 ## Keunggulan
 - **Antarmuka Sederhana**: Program ini mudah digunakan dengan antarmuka yang intuitif.
