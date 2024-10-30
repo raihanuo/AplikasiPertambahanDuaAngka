@@ -1,11 +1,10 @@
-
-import javax.swing.JOptionPane;
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -169,45 +168,57 @@ public class NewJFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void buttonTambahActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonTambahActionPerformed
+        // Mengecek apakah kedua text field (angka pertama dan kedua) sudah terisi
         if (textFieldAngkaPertama.getText().isEmpty() || textFieldAngkaKedua.getText().isEmpty()) {
+            // Menampilkan pesan peringatan jika salah satu atau kedua text field kosong
             JOptionPane.showMessageDialog(this, "Angka pertama dan kedua harus terisi!");
         } else {
+            // Mengambil nilai dari text field, mengonversinya ke tipe integer
             int angkaPertama = Integer.parseInt(textFieldAngkaPertama.getText()),
             angkaKedua = Integer.parseInt(textFieldAngkaKedua.getText()),
+            // Menghitung hasil penjumlahan
             hasil = angkaPertama + angkaKedua;
+            // Menampilkan hasil ke text field hasil
             textFieldHasil.setText(String.valueOf(hasil));
         }
     }//GEN-LAST:event_buttonTambahActionPerformed
 
     private void buttonHapusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonHapusActionPerformed
+        // Mengosongkan semua text field
         textFieldAngkaPertama.setText("");
         textFieldAngkaKedua.setText("");
         textFieldHasil.setText("");
+        // Mengembalikan fokus ke text field angka pertama
         textFieldAngkaPertama.requestFocus();
     }//GEN-LAST:event_buttonHapusActionPerformed
 
     private void buttonKeluarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonKeluarActionPerformed
+        // Menghentikan program
         System.exit(0);
     }//GEN-LAST:event_buttonKeluarActionPerformed
 
     private void textFieldAngkaPertamaKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_textFieldAngkaPertamaKeyTyped
         char c = evt.getKeyChar();
+        // Mengecek apakah karakter yang diketik adalah digit atau backspace
         if (!Character.isDigit(c) && c != java.awt.event.KeyEvent.VK_BACK_SPACE) {
+            // Menampilkan pesan error jika karakter bukan angka atau backspace
             JOptionPane.showMessageDialog(this, "Hanya bisa memasukkan angka!", "Error", JOptionPane.ERROR_MESSAGE);
         }
     }//GEN-LAST:event_textFieldAngkaPertamaKeyTyped
 
     private void textFieldAngkaKeduaKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_textFieldAngkaKeduaKeyTyped
         char c = evt.getKeyChar();
+        // Mengecek apakah karakter yang diketik adalah digit atau backspace
         if (!Character.isDigit(c) && c != java.awt.event.KeyEvent.VK_BACK_SPACE) {
+            // Menampilkan pesan error jika karakter bukan angka atau backspace
             JOptionPane.showMessageDialog(this, "Hanya bisa memasukkan angka!", "Error", JOptionPane.ERROR_MESSAGE);
         }
     }//GEN-LAST:event_textFieldAngkaKeduaKeyTyped
-
+    // Event handler untuk membersihkan text field angka pertama ketika mendapatkan fokus
     private void textFieldAngkaPertamaFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_textFieldAngkaPertamaFocusGained
         textFieldAngkaPertama.setText("");
     }//GEN-LAST:event_textFieldAngkaPertamaFocusGained
-
+    // Event handler untuk membersihkan text field angka kedua ketika mendapatkan fokus
     private void textFieldAngkaKeduaFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_textFieldAngkaKeduaFocusGained
         textFieldAngkaKedua.setText("");
     }//GEN-LAST:event_textFieldAngkaKeduaFocusGained
